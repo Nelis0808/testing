@@ -1,3 +1,5 @@
+export {};
+
 const app = document.getElementById("app");
 
 if (app) {
