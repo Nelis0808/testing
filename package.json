@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "deploy": "npm run build && git add . && git commit -m \"deploy\" && git push"
   },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "shx": "^0.3.4"
   }
 }
